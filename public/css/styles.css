@@ -1,0 +1,284 @@
+/* public/css/styles.css */
+
+/* Style the table header */
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+/* Style the "Create New Album" button */
+.btn-primary {
+    margin-bottom: 20px;
+}
+
+/* Style the table header */
+.table thead th {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+/* Style the table rows */
+.table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+/* Style the action buttons in each row */
+.btn-sm {
+    margin-right: 5px;
+}
+
+/* Style the "View Pictures" button */
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+/* Style the "Edit" button */
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+/* Style the "Delete" button */
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(235, 206, 206, 0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+/* Style the "Back to Albums" button */
+.btn-primary {
+    margin-bottom: 50px;
+}
+
+/* Style the table header */
+.table thead th {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+/* Style the table rows */
+.table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+/* Style the product images */
+.product-image {
+    max-width: 100px; /* Set the maximum width for the images */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any default inline styling on images */
+    margin: 0 auto; /* Center the images horizontally */
+}
+
+/* Optional: Add spacing between the picture name and image */
+.table td {
+    vertical-align: middle;
+}
+
+/* Optional: Add spacing between rows */
+.table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+/* create */
+/* Style the container */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form heading */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the form input and button */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-Primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-Primary:hover {
+    background-color: #0056b3;
+}
+/* edit */
+.container {
+    margin-top: 20px;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/* Add custom CSS styles here */
+
+/* Style the container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the paragraph */
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* Style the form buttons */
+.btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style the Cancel button */
+.btn-secondary {
+    background-color: #ccc;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+/* Style the Delete All Pictures button */
+.btn-danger {
+    background-color: #e1dcdb;
+    border: 1px solid #e3d96b;
+}
+
+/* Style the Move Pictures button */
+.btn-warning {
+    background-color: #edeae4;
+    border: 1px solid #4773ec;
+}
+/* Add custom CSS styles here */
+
+/* Style the container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the form group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Style the label */
+label {
+    font-size: 16px;
+    display: block;
+}
+
+/* Style the select input */
+select.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the form buttons */
+.btn {
+    margin-right: 10px;
+}
+
+/* Style the Cancel button */
+.btn-secondary {
+    background-color: #ccc;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+/* Style the Move Pictures button */
